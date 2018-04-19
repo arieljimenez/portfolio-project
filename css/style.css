@@ -1,0 +1,54 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #2d3c49;
+}
+
+hr {
+    border-top: 5px solid #7d97ad;
+}
+
+a {
+    color: #2d3c49;
+}
+
+#card {
+    text-transform: uppercase;
+    text-align: right;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+#card .name {
+    font-size: 3em;
+    font-weight: 100;
+}
+
+#card .title {
+    font-size: 1.2em;
+}
+
+.featured-work {
+    margin-top: 20px;
+    font-weight: 400;
+    color: #7d97ad;
+}
+
+.featured-items {
+    margin-bottom: 20px;
+}
+
+.featured-item {
+    text-align: center;
+}
+
+.featured-item h4 {
+    text-transform: uppercase;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.featured-item a {
+    font-family: 'Raleway', sans-serif;
+    font-size: .8em;
+}
