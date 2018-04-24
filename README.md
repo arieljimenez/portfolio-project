@@ -1,7 +1,3 @@
 # Full Stack Nanodegree Portfolio Project
 
-## TODO
-
-- [ ] Normal view
-- [ ] Normal Nexus 5 view
-- [ ] Normal iPad view
+Just clone the repo and open the `index.html`.
