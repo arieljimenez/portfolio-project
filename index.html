@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
     crossorigin="anonymous">
@@ -15,10 +15,10 @@
 <body>
   <div class="container">
     <header class="row">
-      <div class="col-3">
-        <img src="./img/blue-udacity-logo.png" alt="Udacity logo">
+      <div class="col-3 col-sm-2">
+        <img class="img-fluid img" src="./img/blue-udacity-logo.png" alt="Udacity logo">
       </div>
-      <div class="col-9">
+      <div class="col-9 col-sm-10">
         <div id="card">
           <h1 class="name">Jane Doette</h1>
           <h2 class="title">Front-End Ninja</h2>
@@ -30,35 +30,52 @@
 
     <main>
       <div class="row">
-        <div class="col-12">
+        <div class="col-sm-12">
           <img class="img-fluid img" src="./img/central-image.jpg" alt="central image">
         </div>
       </div>
 
       <div class="row featured-work">
-        <div class="col-12">
-          <h1>Featured Work</h1>
+        <div class="col-sm-12">
+          <p>Featured Work</p>
         </div>
       </div>
-      <div class="row featured-items">
-        <div class="col-4 featured-item">
-          <img class="img-fluid img" src="./img/appify.png" alt="theme image for the Appify project">
-          <h4>Appify</h4>
-          <a href="#">https://github.com/udacity/Appify/</a>
-        </div>
-        <div class="col-4 featured-item">
-          <img class="img-fluid img" src="./img/sunflower.jpg" alt="theme image for the Sunflower project">
-          <h4>Sunflower</h4>
-          <a href="#">https://github.com/udacity/Sunflower</a>
-        </div>
-        <div class="col-4 featured-item">
-          <img class="img-fluid img" src="./img/bokeh.jpg" alt="theme image for the Bokeh project">
-          <h4>Bokeh</h4>
-          <a href="#">https://github.com/udacity/Bokeh</a>
-        </div>
-      </div>
+      <section class="row featured-items">
+        <article class="col-sm-4 featured-item">
+          <figure>
+            <img class="img-fluid img" src="./img/appify.png" alt="theme image for the Appify project">
+            <figcaption>
+              Appify
+            </figcaption>
+            <a href="https://github.com/udacity/Appify/" target="_blank">Link to the repo 🌐</a>
+
+          </figure>
+        </article>
+        <article class="col-sm-4 featured-item">
+          <figure>
+            <img class="img-fluid img" src="./img/sunflower.jpg" alt="theme image for the Sunflower project">
+            <figcaption>
+              Sunflower
+            </figcaption>
+            <a href="https://github.com/udacity/Sunflower" target="_blank">Link to the repo 🌐</a>
+          </figure>
+        </article>
+        <article class="col-sm-4 featured-item">
+          <figure>
+            <img class="img-fluid img" src="./img/bokeh.jpg" alt="theme image for the Bokeh project">
+            <figcaption>
+              Bokeh
+            </figcaption>
+            <a href="https://github.com/udacity/Bokeh" target="_blank">Link to the repo 🌐</a>
+          </figure>
+        </article>
+      </section>
     </main>
   </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
