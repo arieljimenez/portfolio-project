@@ -15,20 +15,21 @@ a {
     color: #2d3c49;
 }
 
-#card {
+.card {
     -ms-flex-pack: justify;
     -webkit-box-pack: justify;
+    border: 0;
     justify-content: space-between;
     text-align: right;
     text-transform: uppercase;
 }
 
-#card .name {
+.card .name {
     font-size: 4em;
     font-weight: 100;
 }
 
-#card .title {
+.card .title {
     font-size: 1.2em;
 }
 
